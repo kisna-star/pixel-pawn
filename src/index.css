@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add any global game styles below, like hiding scrollbars */
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Keeps the game fullscreen */
+  background-color: #000; /* Standard for games */
+}
